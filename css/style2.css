@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+font-family: sans-serif;
+}
+body{
+    background-color: #7B7B7B29;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.548);
+}
+
+header .logo{
+    padding: 1.5% 10%;
+}
+.logo h1{
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #424242;
+}
+
+.logo h1 span{
+    color: #00A5EC;
+}
+
+/* ----------------------section-------------------------------------- */
+#slides{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    padding: 2% 10%;
+}
+
+.line{
+    margin: 30px -20px 20px;
+    border: 0;
+    border-top: 1px solid #c9c7c7;
+}
+
+.slide1 .check{
+ text-decoration: line-through;
+ color: #C2C2C2;
+}
+
+.slide1 h1{
+    color:#00A5EC;
+    font-size: 1rem;
+    font-weight:300;
+}
+
+.slide1 label{
+    margin-left: 8px;
+    font-size: 1.2rem;
+    color: #424242;
+}
+
+#slides .slide1{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+
+.slide1 input{
+   width: 20px;
+   height: 20px;
+}
+
+/* -------------------------icons---------------------------- */
+
+#icons{
+    position: absolute;
+    top:13%;
+    left: 65%;
+}
+
+#icons i{
+    margin: 0 10px;
+    color: #00A5EC;
+}
+
+#icons h1{
+    font-size: 1.7rem;
+    color: #424242;
+}
+
+/* ---------------------------------blur-------------------- */
+
+#blurs{
+  width: 100%;
+  height: 110vh;
+  background-color: #4b4b4b;
+  opacity: .7;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+/* ------------------------------ */
+
+#opetion{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    width: 500px;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 3px whitesmoke;
+}
+
+#opetion .opt{
+    padding: 20px;
+}
+
+.opt h1{
+    color: #00A5EC;
+    display: inline-block;
+}
+
+.opt .cross{
+    float: right;
+    margin-right: 20px;
+    color: #424242;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.opt .cross:hover{
+    color: #42424281;
+}
+
+.opt input{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #d3d3d3;
+    outline: none;
+    border: 0px solid #fff;
+}
+
+.opt button{
+    border: 2px solid #00A5EC;
+    border-radius: 2px;
+    width: 220px;
+    height: 30px;
+    margin-top: 30px;
+    float: right;
+    background-color: #00A5EC;
+    font-size: 1rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.opt button:hover{
+    background-color: #026f9e;
+}
